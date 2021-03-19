@@ -1,0 +1,11 @@
+POST http://localhost:8080/hello
+Accept: application/json
+
+{
+"name":"김번개",
+"age":"36"
+}
+###
+### do after 10 sec
+
+GET localhost:8080/person?id=4
